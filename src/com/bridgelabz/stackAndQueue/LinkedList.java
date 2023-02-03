@@ -30,9 +30,11 @@ public class LinkedList {
         }
     }
 
-    /*
-     * Display elements of linkedList
-     */
+    // Delete position
+    public void popFirst() {
+        head = head.ref;
+    }
+
     public void display() {
         Node temp = head;
         if (head == null)
@@ -50,3 +52,5 @@ public class LinkedList {
     }
 
 }
+
+   
